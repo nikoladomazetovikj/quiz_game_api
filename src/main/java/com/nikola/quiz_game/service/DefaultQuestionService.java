@@ -17,7 +17,7 @@ public class DefaultQuestionService implements QuestionService{
 
     @Override
     public List<Question> findAll() {
-        return (List<Question>) questionRepository.findAll();
+        return questionRepository.findAll();
     }
 
     @Override
